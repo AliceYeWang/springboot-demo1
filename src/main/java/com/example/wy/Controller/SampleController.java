@@ -9,4 +9,8 @@ public class SampleController {
     String home() {
         return "Hello World!";
     }
+    @RequestMapping("/test")
+    String test2() {
+        return "Hello World!";
+    }
 }
